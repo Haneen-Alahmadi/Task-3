@@ -28,16 +28,23 @@ $ sudo apt-get install ros-noetic-joint-state-publisher ros-noetic-joint-state-p
 $ sudo apt-get install ros-noetic-gazebo-ros-control joint-state-publisher
 $ sudo apt-get install ros-noetic-ros-controllers ros-noetic-ros-control
 
+# change dictionary
+
+cd
 sudo nano ~/.bashrc
 
-at the end of the (bashrc) file add the follwing line
-(source /home/wesam/catkin_ws/devel/setup.bash)
-then 
-ctrl + o
+# at the end of the (bashrc) file add the follwing line
 
+source /home/parallels/catkin_ws/devel/setup.bash
+
+#then enter
+
+ctrl + o
+ENTER
+ctrl + x
 source ~/.bashrc
 
 roslaunch robot_arm_pkg check_motors.launch
 #After install "roslaunch robot_arm_pkg check_motors.launch" (RVIZ) will appear
-<img width="942" alt="Screen Shot 1443-12-22 at 5 59 27 AM" src="https://user-images.githubusercontent.com/108179353/180120900-d98a0403-6aba-448b-a545-4693c134052b.png">
 
+<img width="931" alt="image" src="https://user-images.githubusercontent.com/108179353/180121298-9d45bf4d-0d82-4fcc-8749-e4c31f087942.png">
