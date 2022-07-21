@@ -31,6 +31,7 @@ $ sudo apt-get install ros-noetic-ros-controllers ros-noetic-ros-control
 # change dictionary
 
 cd
+
 sudo nano ~/.bashrc
 
 # at the end of the (bashrc) file add the follwing line
